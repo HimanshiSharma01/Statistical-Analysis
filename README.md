@@ -69,9 +69,9 @@ Manual transmissions are more common, suggesting higher availability for buyers 
 - Price Variation with Mileage, Engine Size, and Year:
  Mileage: Weak negative correlation (-0.126), indicating higher mileage slightly decreases selling price.
 
-Engine Size: Moderate positive correlation (0.456), indicating larger engines generally have higher prices.
+- Engine Size: Moderate positive correlation (0.456), indicating larger engines generally have higher prices.
 
-Year of Manufacture: Moderate positive correlation (0.412), indicating newer cars generally have higher prices.
+- Year of Manufacture: Moderate positive correlation (0.412), indicating newer cars generally have higher prices.
 
 - Covariance between Selling Price and Mileage:
 Negative covariance (-414,682.41) suggests an inverse relationship; higher mileage tends to decrease selling price.

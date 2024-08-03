@@ -1,4 +1,4 @@
-### Exploratory Data Analysis for Car Loan
+## Exploratory Data Analysis for Car Loan
 #### Problem Statement
 Assume that You work for a financial institution that provides car loans to customers. The organization has collected a dataset containing information about various car loan applications they've received over the past year.
 
@@ -34,5 +34,56 @@ This analysis provided actionable insights into loan approval dynamics, emphasiz
 
 
 
+## A Comprehensive Statistical Analysis of Used Car Data
+#### The objective of this statistical analysis is to demonstrate the importance of using:
+- Descriptive statistics, Probability and Inferential statistics.
+- Explore the dataset and answer various research questions to draw meaningful conclusions from data and make informed decisions using Python.
+  
+#### Data Preprocessing
+- Cleaned and transformed features:
+- Mileage: Removed 'kmpl' and 'km/kg' and converted to numeric
+- Engine: Removed 'CC' and converted to numeric
+- Max_power: Removed 'bhp' and converted to numeric
+- Converted Sales_ID and Postal_code to object datatype
+
+#### Research Questions and Insights
+- Characteristics of Cars:
+      - Average Mileage: 19.42 kmpl
+      - Average Selling Price: ₹649,813.72
+      - Price Range: ₹9,970,001
+      - Interquartile Range of Prices: ₹420,000
+      - Most Common Fuel Type: Diesel
+      - Most Common Transmission Type: Manual
+
+- Significant Differences:
+      - Selling Price by Seller Type:
+      - Dealer: ₹1,459,910
+      - Individual: ₹507,706
+      - Trustmark Dealer: ₹801,839
+
+- Transmission Type Preference:
+      - Manual: 86.83%
+      - Automatic: 13.17%
+Manual transmissions are more common, suggesting higher availability for buyers preferring manual cars.
+
+- Price Variation with Mileage, Engine Size, and Year:
+ Mileage: Weak negative correlation (-0.126), indicating higher mileage slightly decreases selling price.
+
+Engine Size: Moderate positive correlation (0.456), indicating larger engines generally have higher prices.
+
+Year of Manufacture: Moderate positive correlation (0.412), indicating newer cars generally have higher prices.
+
+- Covariance between Selling Price and Mileage:
+Negative covariance (-414,682.41) suggests an inverse relationship; higher mileage tends to decrease selling price.
+
+- Probability of Automatic Transmission for Cars over ₹10,000:13.17%
+
+#### Hypothesis Testing:
+- Significant difference in selling prices based on fuel type (Petrol vs. Diesel): T-statistic: -18.12, P-value: 5.96e-72
+- Significant difference in the number of seats between cars with automatic and manual transmissions: P-value close to 0
+- Strong association between car models and owner types: Chi-square statistic and corresponding p-value indicate a significant relationship.
+
+#### Outcome
+This statistical analysis provided deep insights into the used car market, highlighting factors influencing car prices, buyer preferences, and the impact of various car attributes on selling prices. The findings are crucial for developing pricing strategies and improving inventory management for pre-owned vehicles.
 
   
